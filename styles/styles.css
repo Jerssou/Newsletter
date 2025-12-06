@@ -10,11 +10,12 @@
 }
 body {
     height: 100vh;
-    /*padding: 0 20px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
+    background-color: #F9FAFB;
 }
 
 .author-info {
@@ -29,6 +30,7 @@ body {
 .gen-new{
     width: 100%;
     align-items: center;
+    margin: 50px 50px 0px 50px;
 }
 .imagen{
     display: grid;
@@ -51,13 +53,14 @@ body {
     padding-right: 150px;
     border-radius: 20px;
 }
-.datos-C form{
-    display: grid;
-    align-items: center;
-}
-.datos-C span{
-    align-items: center;
-}
 form{
-    align-items: center;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    
+}
+form input, button{
+    margin-bottom: 15px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
 }
