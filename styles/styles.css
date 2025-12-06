@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+    height: 100vh;
+    /*padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+.author-info a {
+    text-decoration: none;
+}
+.gen-new{
+    width: 100%;
+    align-items: center;
+}
+.imagen{
+    display: grid;
+    place-items: center;
+}
+.descripcion h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+.descripcion{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-bottom: 15px;
+}
+.datos-C{
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);       
+    padding-right: 150px;
+    border-radius: 20px;
+}
+.datos-C form{
+    display: grid;
+    align-items: center;
+}
+.datos-C span{
+    align-items: center;
+}
+form{
+    align-items: center;
+}
