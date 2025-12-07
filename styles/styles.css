@@ -49,18 +49,81 @@ body {
     padding-bottom: 15px;
 }
 .datos-C{
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);       
-    padding-right: 150px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
 form{
-    border: 1px solid black;
-    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #FFFFFF;
-    
+    gap: 15px;
+    padding: 25px;
+    /*padding-top: 25px;
+    border-radius: 10px;*/
 }
 form input, button{
-    margin-bottom: 15px;
-    padding: 15px 30px 15px 30px;
+    width: 100%;
+    padding: 15px 20px;
     border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+form button{
+    background-color: #284BCE;
+    color: #FFFFFF;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+form input{
+    padding-left: 163px;
+    padding-right: 163px;
+}
+@media screen and (min-width: 640px) {
+    .gen-new{
+        padding: 10px;
+    }
+    .datos-C{
+        max-width: 100%;
+    }
+    form input{
+        padding-left: 50px;
+        padding-right: 50px; 
+    }
+    form button{
+        padding-left: 95px;
+        padding-right: 95px; 
+    }
+    span{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    .gen-new{
+        max-width: 900px;
+    }
+    .datos-C{
+        max-width: 600px;
+        padding: 0 auto;
+    }
+    form{
+        padding: 30px;
+    }
+    form input, button{
+        max-width: 500px;
+    }
+}
+@media screen and (min-width: 1281px){
+    .datos-c{
+        max-width: 800px;
+    }
+    form input, button{
+        max-width: 600px;
+    }
 }
